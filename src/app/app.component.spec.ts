@@ -1,6 +1,8 @@
 import { TestBed, async } from '@angular/core/testing';
 
 import { AppComponent } from './app.component';
+import { MdlModule } from '@angular-mdl/core';
+import { FormsModule } from '@angular/forms';
 
 describe('AppComponent', () => {
   beforeEach(async(() => {
@@ -8,6 +10,10 @@ describe('AppComponent', () => {
       declarations: [
         AppComponent
       ],
+      imports: [
+        MdlModule,
+        FormsModule
+      ]
     }).compileComponents();
   }));
 
@@ -24,9 +30,9 @@ describe('AppComponent', () => {
   }));
 
   it('should render title in a h1 tag', async(() => {
-    const fixture = TestBed.createComponent(AppComponent);
+    let fixture = TestBed.createComponent(AppComponent);
     fixture.detectChanges();
-    const compiled = fixture.debugElement.nativeElement;
-    expect(compiled.querySelector('h1').textContent).toContain('app works!');
+    let compiled = fixture.debugElement.nativeElement;
+    expect(compiled.querySelector('mdl-layout-title').textContent).toContain('app works!');
   }));
 });
