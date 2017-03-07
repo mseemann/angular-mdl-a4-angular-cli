@@ -2,9 +2,9 @@
 # yarn lockfile v1
 
 
-"@angular-mdl/core@^3.0.0-beta.1":
-  version "3.0.0-beta.4"
-  resolved "https://registry.yarnpkg.com/@angular-mdl/core/-/core-3.0.0-beta.4.tgz#26eb1bc85b77b6b2880273be8555cd2de9fc294d"
+"@angular-mdl/core@^3.0.0-beta.5":
+  version "3.0.0-beta.5"
+  resolved "https://registry.yarnpkg.com/@angular-mdl/core/-/core-3.0.0-beta.5.tgz#dc949dd72bfcc92408f98370bcaa65ba0e5d980a"
 
 "@angular/animations@>=4.0.0-beta <5.0.0":
   version "4.0.0-rc.2"
@@ -5077,16 +5077,9 @@ write-file-atomic@^1.1.2:
     imurmurhash "^0.1.4"
     slide "^1.1.5"
 
-ws@1.1.1:
+ws@1.1.1, ws@^1.0.1:
   version "1.1.1"
   resolved "https://registry.yarnpkg.com/ws/-/ws-1.1.1.tgz#082ddb6c641e85d4bb451f03d52f06eabdb1f018"
-  dependencies:
-    options ">=0.0.5"
-    ultron "1.0.x"
-
-ws@^1.0.1:
-  version "1.1.2"
-  resolved "https://registry.yarnpkg.com/ws/-/ws-1.1.2.tgz#8a244fa052401e08c9886cf44a85189e1fd4067f"
   dependencies:
     options ">=0.0.5"
     ultron "1.0.x"
