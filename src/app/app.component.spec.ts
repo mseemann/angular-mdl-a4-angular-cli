@@ -3,6 +3,7 @@ import { TestBed, async } from '@angular/core/testing';
 import { AppComponent } from './app.component';
 import { MdlModule } from '@angular-mdl/core';
 import { FormsModule } from '@angular/forms';
+import { MdlSelectModule } from '@angular-mdl/select';
 
 describe('AppComponent', () => {
   beforeEach(async(() => {
@@ -12,7 +13,8 @@ describe('AppComponent', () => {
       ],
       imports: [
         MdlModule,
-        FormsModule
+        FormsModule,
+        MdlSelectModule
       ]
     }).compileComponents();
   }));
