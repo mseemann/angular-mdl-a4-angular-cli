@@ -7,12 +7,12 @@
   resolved "https://registry.yarnpkg.com/@angular-mdl/core/-/core-4.0.0.tgz#9415a3340cbeeac01739e5777971fec307b13c17"
 
 "@angular-mdl/popover@^0.6.0":
-  version "0.6.2"
-  resolved "https://registry.yarnpkg.com/@angular-mdl/popover/-/popover-0.6.2.tgz#fcbde1b87405263e0e1dd65832ff64ee7402dd3d"
+  version "0.6.3"
+  resolved "https://registry.yarnpkg.com/@angular-mdl/popover/-/popover-0.6.3.tgz#8cd85de2cb4a77c5ec6cc1632f8d511f8a5371ef"
 
 "@angular-mdl/select@^0.10.1":
-  version "0.10.3"
-  resolved "https://registry.yarnpkg.com/@angular-mdl/select/-/select-0.10.3.tgz#2ab46cf23a4bf5342dd1c94c4cb07f5aae2554f6"
+  version "0.10.4"
+  resolved "https://registry.yarnpkg.com/@angular-mdl/select/-/select-0.10.4.tgz#09062a2e2f6ca005d85ea19230ef11c538dd3762"
 
 "@angular/animations@>=4.0.0-beta <5.0.0":
   version "4.0.0"
@@ -1211,7 +1211,7 @@ date-now@^0.1.4:
   version "0.1.4"
   resolved "https://registry.yarnpkg.com/date-now/-/date-now-0.1.4.tgz#eaf439fd4d4848ad74e5cc7dbef200672b9e345b"
 
-debug@*, debug@2, debug@2.6.3, debug@^2.1.3, debug@^2.2.0:
+debug@*, debug@2, debug@^2.1.3, debug@^2.2.0:
   version "2.6.3"
   resolved "https://registry.yarnpkg.com/debug/-/debug-2.6.3.tgz#0f7eb8c30965ec08c72accfa0130c8b79984141d"
   dependencies:
@@ -1700,23 +1700,11 @@ filled-array@^1.0.0:
   version "1.1.0"
   resolved "https://registry.yarnpkg.com/filled-array/-/filled-array-1.1.0.tgz#c3c4f6c663b923459a9aa29912d2d031f1507f84"
 
-finalhandler@1.0.0:
+finalhandler@1.0.0, finalhandler@~1.0.0:
   version "1.0.0"
   resolved "https://registry.yarnpkg.com/finalhandler/-/finalhandler-1.0.0.tgz#b5691c2c0912092f18ac23e9416bde5cd7dc6755"
   dependencies:
     debug "2.6.1"
-    encodeurl "~1.0.1"
-    escape-html "~1.0.3"
-    on-finished "~2.3.0"
-    parseurl "~1.3.1"
-    statuses "~1.3.1"
-    unpipe "~1.0.0"
-
-finalhandler@~1.0.0:
-  version "1.0.1"
-  resolved "https://registry.yarnpkg.com/finalhandler/-/finalhandler-1.0.1.tgz#bcd15d1689c0e5ed729b6f7f541a6df984117db8"
-  dependencies:
-    debug "2.6.3"
     encodeurl "~1.0.1"
     escape-html "~1.0.3"
     on-finished "~2.3.0"

@@ -5,7 +5,7 @@ import { HttpModule } from '@angular/http';
 
 import { AppComponent } from './app.component';
 import { MdlModule } from '@angular-mdl/core';
-//import { MdlSelectModule } from '@angular-mdl/select';
+import { MdlSelectModule } from '@angular-mdl/select';
 
 @NgModule({
   declarations: [
@@ -16,7 +16,7 @@ import { MdlModule } from '@angular-mdl/core';
     FormsModule,
     HttpModule,
     MdlModule,
-    //MdlSelectModule
+    MdlSelectModule
   ],
   providers: [],
   bootstrap: [AppComponent]
