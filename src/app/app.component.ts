@@ -7,6 +7,10 @@ import { MdlDialogService } from '@angular-mdl/core';
   styleUrls: ['app.component.scss']
 })
 export class AppComponent {
+  text3: string;
+  checkbox1: boolean;
+  radioOption: string;
+  editedUsername: string;
   title = 'app works!';
 
 
