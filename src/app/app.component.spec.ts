@@ -4,6 +4,7 @@ import { AppComponent } from './app.component';
 import { MdlModule } from '@angular-mdl/core';
 import { FormsModule } from '@angular/forms';
 import { MdlSelectModule } from '@angular-mdl/select';
+import { MdlDatePickerModule } from '@angular-mdl/datepicker';
 
 describe('AppComponent', () => {
   beforeEach(async(() => {
@@ -14,7 +15,8 @@ describe('AppComponent', () => {
       imports: [
         MdlModule,
         FormsModule,
-        MdlSelectModule
+        MdlSelectModule,
+        MdlDatePickerModule
       ]
     }).compileComponents();
   }));

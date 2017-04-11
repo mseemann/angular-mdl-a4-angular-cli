@@ -1,5 +1,7 @@
 import { Component } from '@angular/core';
 import { MdlDialogService } from '@angular-mdl/core';
+import { MdlDatePickerService } from '@angular-mdl/datepicker/datepicker.service';
+import * as moment from 'moment';
 
 @Component({
   selector: 'app-root',
@@ -12,6 +14,7 @@ export class AppComponent {
   radioOption: string;
   editedUsername: string;
   title = 'app works!';
+  selectedDate: any;
 
 
   otherCountryCode: string = null;
@@ -25,9 +28,17 @@ export class AppComponent {
     {name: 'United Kingdom', code: 'UK'},
   ];
 
-  constructor(private dialogService: MdlDialogService){}
+  constructor(
+      private dialogService: MdlDialogService,
+      private datePicker: MdlDatePickerService){}
 
   public test(){
     this.dialogService.alert("test");
+  }
+
+  public pickADate($event: any) {
+    this.datePicker.selectDate(this.selectedDate, {openFrom: $event}).subscribe( (selectedDate: Date) => {
+      this.selectedDate = selectedDate ? moment(selectedDate) : null;
+    });
   }
 }
